@@ -7,6 +7,15 @@
  * entradas y salidas serán por consola
  */
 
+/**
+ * The above JavaScript code implements a word guessing game where the player has to guess a secret
+ * word by inputting letters or attempting to guess the whole word within a limited number of attempts.
+ * @returns The `jugar()` function is being called at the end of the script, which initiates the game
+ * of guessing the secret word. The function `jugar()` contains the game logic where the user interacts
+ * with the program to guess letters or the entire word. The function will continue running until the
+ * user either guesses the word correctly, runs out of attempts, or chooses to guess the entire word
+ * and either
+ */
 const readlineSync = require('readline-sync');
 
 // Creamos una función para elegir la palabra secreta
